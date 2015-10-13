@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/drone/routes"
 	"net/http"
 )
 
@@ -11,9 +12,13 @@ type API struct {
 }
 
 func requestHandler (w http.ResponseWriter, r *http.Request) {
-	// message := API{"Hello, world!"}
 
-	response := &API{Message : "Hello, world!"}
+	urlParams := r.URL.Query()
+	name := urlParams.Get(":name")
+	helloMessage := "Hello, " + name + "!"
+
+	response := &API{helloMessage}
+
 
 	output, err := json.Marshal(response)
 
@@ -25,6 +30,10 @@ func requestHandler (w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/api", requestHandler)
-	http.ListenAndServe(":9090", nil)
+
+	mux := routes.New()
+	mux.Get("/api/:name", requestHandler)
+	http.Handle("/", mux)
+	http.ListenAndServe(":9091", nil)
+
 }
