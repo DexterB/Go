@@ -35,6 +35,7 @@ func asyncHttpGets(urlsIn []string) []*HttpResponse {
 		go func(url string) {
 			fmt.Printf("Fetching %s \n", url)
 			resp, err := http.Get(url)
+			resp.Body.Close()
 			ch <- &HttpResponse{url, resp, err}
 		}(url)
 	}
