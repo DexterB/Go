@@ -2,40 +2,33 @@
   <library name="GOPATH &lt;gofunc&gt;">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../.DS_Store" />
-      <root url="file://$PROJECT_DIR$/../../../code.google.com" />
-      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../.git" />
+      <root url="file://$PROJECT_DIR$/../chan" />
+      <root url="file://$PROJECT_DIR$/../once" />
+      <root url="file://$PROJECT_DIR$/../wait" />
+      <root url="file://$PROJECT_DIR$/../break" />
+      <root url="file://$PROJECT_DIR$/../hello" />
+      <root url="file://$PROJECT_DIR$/../loops" />
+      <root url="file://$PROJECT_DIR$/../select" />
+      <root url="file://$PROJECT_DIR$/../chanbuf" />
+      <root url="file://$PROJECT_DIR$/../condvar" />
+      <root url="file://$PROJECT_DIR$/../timeout" />
+      <root url="file://$PROJECT_DIR$/../channels" />
+      <root url="file://$PROJECT_DIR$/../chanclose" />
+      <root url="file://$PROJECT_DIR$/../nbchannel" />
+      <root url="file://$PROJECT_DIR$/../README.md" />
+      <root url="file://$PROJECT_DIR$/../.gitignore" />
+      <root url="file://$PROJECT_DIR$/../channelsync" />
+      <root url="file://$PROJECT_DIR$/../channelrange" />
+      <root url="file://$PROJECT_DIR$/../selfdestruct" />
+      <root url="file://$PROJECT_DIR$/../channeldirections" />
+      <root url="file://$PROJECT_DIR$/../../serialx" />
+      <root url="file://$PROJECT_DIR$/../../.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../../dexterb.old" />
       <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../code.google.com" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
-    <excluded>
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/callgraph/cha/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/stringer/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/cover/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/callgraph/rta/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/ssa/interp/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/gcimporter/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/callgraph/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/oracle/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/text/.git" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/gccgoimporter/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/.git" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/fiximports/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/.git" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/ssa/ssautil/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/loader/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/html/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/text/encoding/testdata" />
-      <root url="file://$PROJECT_DIR$" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/pointer/testdata" />
-      <root url="file://$PROJECT_DIR$/.idea" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/types/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/vet/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/refactor/eg/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/ssa/testdata" />
-      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/html/charset/testdata" />
-      <root url="file://$PROJECT_DIR$/../hello/.idea" />
-      <root url="file://$PROJECT_DIR$/../../serialx/hashring/.git" />
-    </excluded>
   </library>
 </component>
